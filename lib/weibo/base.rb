@@ -306,26 +306,26 @@ module Weibo
     private
       def perform_get(path, options={})
         options[:query] = {} unless options[:query]
-        options[:query][:source] = WEIBO_API_KEY
+        options[:query][:source] = Weibo::Config.api_key
         Weibo::Request.get(self, path, options)
       end
 
       def perform_post(path, options={})
         options[:query] = {} unless options[:query]
-        options[:query][:source] = WEIBO_API_KEY
+        options[:query][:source] = Weibo::Config.api_key
         Weibo::Request.post(self, path, options)
       end
 
       def perform_put(path, options={})
         options[:query] = {} unless options[:query]
-        options[:query][:source] = WEIBO_API_KEY
+        options[:query][:source] = Weibo::Config.api_key
 
         Weibo::Request.put(self, path, options)
       end
 
       def perform_delete(path, options={})
         options[:query] = {} unless options[:query]
-        options[:query][:source] = WEIBO_API_KEY
+        options[:query][:source] = Weibo::Config.api_key
         Weibo::Request.delete(self, path, options)
       end
   end

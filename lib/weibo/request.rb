@@ -22,7 +22,7 @@ module Weibo
     def_delegators :client, :get, :post, :put, :delete
 
     def initialize(client, method, path, options={})
-      @client, @method, @path, @options = client, method, path, {:mash => true, :query => {:source => WEIBO_API_KEY}}.merge(options)
+      @client, @method, @path, @options = client, method, path, {:mash => true, :query => {:source => Weibo::Config.api_key}}.merge(options)
     end
 
 
