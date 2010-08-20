@@ -12,6 +12,9 @@ Description goes here.
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
+== Special Thanks
+This library was based upon and is an adaptation of John Nunemaker's twitter gem.  It started as the twitter gem and has been adapted in the necessary ways to make it work with Sina's api.  I'm using it with his blessing, thanks John.
+
 == Copyright
 
 Copyright (c) 2010 Scott Ballantyne. See LICENSE for details.
