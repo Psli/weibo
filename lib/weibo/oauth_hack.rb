@@ -2,7 +2,15 @@
 # as Sina Weibo doesn't follow the god damned OAuth specifications!!!
 
 module PostBodyHack
-  mattr_accessor :parameters
+  
+  def self.parameters=(val)
+    @@parameters = val
+  end
+  
+  def self.parameters
+    @@parameters
+  end
+  
   def self.apply_hack(params={}, &block)
     self.parameters = params.stringify_keys
     rv = yield

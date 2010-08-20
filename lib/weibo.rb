@@ -11,9 +11,6 @@ gem 'httparty', '>= 0.5.2'
 require 'httparty'
 
 module Weibo
-  module Config
-    mattr_accessor :api_key
-  end
   class WeiboError < StandardError
     attr_reader :data
 
