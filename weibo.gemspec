@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Scott Ballantyne"]
   s.date = %q{2010-08-20}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{this gem is an adaptation of John Nunemaker's Twitter gem.  I modified it to make api integration for 新浪微博 (t.sina.com.cn) easier.}
   s.email = %q{scott@ekohe.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -30,7 +30,8 @@ Gem::Specification.new do |s|
      "lib/weibo/oauth_hack.rb",
      "lib/weibo/request.rb",
      "test/helper.rb",
-     "test/test_weibo.rb"
+     "test/test_weibo.rb",
+     "weibo.gemspec"
   ]
   s.homepage = %q{http://github.com/ballantyne/weibo}
   s.rdoc_options = ["--charset=UTF-8"]
