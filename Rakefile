@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "weibo"
     gem.summary = %Q{a gem to help api integration for 新浪微博 (t.sina.com.cn)}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{this gem is an adaptation of John Nunemaker's Twitter gem.  I modified it to make api integration for 新浪微博 (t.sina.com.cn) easier.}
     gem.email = "scott@ekohe.com"
     gem.homepage = "http://github.com/ballantyne/weibo"
     gem.authors = ["Scott Ballantyne"]
