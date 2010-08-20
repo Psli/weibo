@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/weibo.rb",
      "lib/weibo/base.rb",
+     "lib/weibo/config.rb",
      "lib/weibo/httpauth.rb",
      "lib/weibo/oauth.rb",
      "lib/weibo/oauth_hack.rb",

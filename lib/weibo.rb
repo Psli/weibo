@@ -54,6 +54,7 @@ require File.join(directory, 'weibo', 'oauth')
 require File.join(directory, 'weibo', 'oauth_hack')
 require File.join(directory, 'weibo', 'httpauth')
 require File.join(directory, 'weibo', 'request')
+require File.join(directory, 'weibo', 'config')
 require File.join(directory, 'weibo', 'base')
 
 # code is an adaptation of the twitter gem by John Nunemaker
